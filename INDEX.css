@@ -1,0 +1,35 @@
+
+body {
+box-sizing: border-box;margin: auto auto;
+border: 7px solid white;background-color: chocolate;
+}
+.one {
+width: 90%;
+height: 7vh;background-color: brown;border: 3px solid lime;
+margin: 15px auto;
+}
+.two {
+width: 90%;
+height: 33vh;background-color: purple;border: 3px solid lightcoral;
+margin: 15px auto;
+}
+
+
+
+#flex-container {
+display: flex;
+justify-content:center;
+
+}
+
+#flex-container>div {
+background-color: rgb(6, 6, 32);height: 33vh;width:28% ;border: 3px solid aqua;
+margin-left: 25px;margin-right: 25px;
+}
+
+.four {
+width: 90%;
+height: 12vh;background-color:olivedrab;border: 3px solid brown;
+margin: 15px auto;
+}
+
